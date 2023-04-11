@@ -1,0 +1,35 @@
+#feign.httpclient.enabled: true
+
+#apiBaseUrl: https://test.tws-esb.intranet.rws.nl/lmw/mkk-dl/auth/1.0.1/mkk-dl
+keystorePassword: secret
+keystoreFile: ddoper.keystore
+certFile: truststore.jks
+certPassword: secret
+
+#truststoreFile: #mkkdl-trust-store.jks
+#truststorePassword: #test
+#tokenSecret: secret
+
+#apiBaseUrl: https://ddapi-test.intranet.rws.nl
+#apiBaseUrl: https://ddapi-acceptance.intranet.rws.nl
+#apiBaseUrl: https://ddapi.intranet.rws.nl
+#apiBaseUrl: https://ddapi-p1.intranet.rws.nl
+#apiBaseUrl: https://ddapi-p2.intranet.rws.nl
+#apiBaseUrl: https://ddapi.rws.nl
+
+# The format used for the keystore. It could be set to JKS in case it is a JKS file
+#server.ssl:
+#    key-store-type: PKCS12
+#  # The path to the keystore containing the certificate
+#    key-store: classpath:mkkdl.keystore
+#  # The password used to generate the certificate
+#    key-store-password: secret
+#  # The alias mapped to the certificate
+#    key-alias: mkkdl
+#    enabled: true
+
+#trust store location
+#trust.store:
+#  classpath:baeldung.p12
+#trust store password
+#  password:password
